@@ -1,0 +1,48 @@
+@import '~antd/dist/antd.css';
+
+.adminPage{
+    text-align: center;
+    justify-items: center;
+    margin: auto;
+    padding-top: 5%;
+    width: 80%;
+    min-height: 100vh;
+}
+.adminPage .ant-layout.ant-layout-has-sider{
+    min-height: 80vh;
+    background-color: transparent;
+}
+
+.adminPage .ant-layout-sider{
+    background-color: cadetblue;
+}
+
+.adminPage .content{
+    margin-left: 5%;
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 5%;    
+}
+
+.adminPage .addNew{
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: #fff;
+    height: fit-content;
+    font-weight: 600;
+    width: 40%;
+    float: right;
+}
+
+@media (max-width:760px) {
+    .adminPage{
+        width: 100%;
+    }
+    .adminPage .content{
+        margin-left: 0;
+        border-radius: 0;
+    }    
+    .adminPage .addNew{
+        width: fit-content;
+    }
+}

@@ -1,0 +1,88 @@
+@import '~antd/dist/antd.css';
+
+.userPage{
+    text-align: center;
+    justify-items: center;
+    margin: auto;
+    padding-top: 5%;
+    width: 80%;
+    background-color: transparent;
+}
+
+.userPage .ant-btn-primary{
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    height: fit-content;
+    width: 100%;
+}
+
+.userPage .content{
+    margin-top: 5%;
+    padding: 5%;
+    width: 100%;
+    min-height: 60vh;
+    background-color: #fff;
+    border-radius: 2%;
+}
+
+.userPage .content .pervious{
+    margin: 5px;
+    width: 100%;
+}
+.userPage .content .test{
+    width: 100%;
+}
+.userPage .content .test .back {
+    width: 100%;
+    justify-content: left;
+    display: block;
+}
+.userPage .content .test .back .ant-btn-primary{
+    width: 30%;
+}
+.userPage .content .test .ant-btn-primary{
+    width: 50%;
+}
+
+.userPage .content .test .ant-form-horizontal .ant-form-item-label{
+    width: 100%;
+    text-align: left;
+}
+
+.userPage .content .pervious .ant-table-thead .ant-table-cell{
+    background-color: cadetblue;
+}
+
+.answerModal .grade .success{
+    font-size: 30px;
+    color:green
+}
+.answerModal .grade .fail{
+    font-size: 30px;
+    color:red
+}
+
+.answerModal .ant-list-item-meta-title{
+    text-align: left;
+}
+.answerModal .success .ant-radio-inner::after{
+    background-color: green;
+}
+.answerModal .fail .ant-radio-inner::after{
+    background-color: red;
+}
+
+@media (max-width:760px) {
+    .userPage .ant-btn-primary{
+        font-size: 15px;
+    }
+    .userPage .content{
+        min-height: 80vh;
+    }
+    .userPage .content .test .ant-btn-primary{
+        width: 100%;
+    }
+}

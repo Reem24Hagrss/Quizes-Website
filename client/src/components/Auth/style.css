@@ -1,0 +1,90 @@
+@import '~antd/dist/antd.css';
+
+.loginPage{
+    text-align: center;
+    justify-items: center;
+    padding-top: 10%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.loginPage h1{
+    color: cadetblue;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.loginBox{
+    height: 400px;
+    width: 40%;
+    margin: auto;
+    background-color: cadetblue;
+    border-radius: 5%;
+}
+
+.loginPage .ant-tabs{
+    align-items: center;
+    text-align: center;
+}
+.ant-tabs-nav{
+    width: 100%;
+    height: 60px;
+}
+.loginBox > .ant-tabs-card > .ant-tabs-nav::before {
+    display: none;
+  }
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-list{
+    width: 100%;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-list .ant-tabs-tab{
+    width: 50%;
+}
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab:not(:last-of-type){
+    margin-right: 0;
+    justify-content: center;
+    background-color: transparent;
+    border: 0;
+    font-size: 30px;
+}
+.loginBox .ant-tabs-content-holder{
+    width: 100%;
+    
+}
+.loginBox .ant-tabs-card .ant-tabs-content > .ant-tabs-tabpane {
+    background: rgb(158, 229, 231);
+    padding: 16px;
+    width: 100%;
+    height: 325px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.loginBox .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: rgb(158, 229, 231);
+}
+
+.loginPage .loginBox .loginForm{
+    padding: 10%;
+}
+.loginPage .loginBox .loginForm .ant-btn-primary{
+    background-color: cadetblue;
+    border-color: cadetblue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    height: fit-content;
+    width: 50%;
+}
+.loginPage .loginBox .loginForm .ant-form-item{
+    justify-content: center;
+}
+@media (max-width:760px) {
+    .loginBox{
+        width: 70%
+    }
+    .loginPage h1{
+        color: cadetblue;
+        font-weight: 600;
+        font-size: 30px;
+    }
+}

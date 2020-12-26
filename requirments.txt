@@ -1,0 +1,5 @@
+express
+express-handlebars
+mongoose
+body-parser
+nodemon
